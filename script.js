@@ -4,7 +4,6 @@ var array1=Array.from(name1.replace(" ","").toLowerCase());
 var array2=Array.from(name2.replace(" ","").toLowerCase());
 var count=array1.length+array2.length;
 var flag=false;
-var uniqueLettersArray=new Array();
 array1.forEach((letter)=>{
   flag=false;
   array2.forEach((el,index)=>{
@@ -18,7 +17,6 @@ array1.forEach((letter)=>{
     }
   }
   );
-  uniqueLettersArray.push(letter);
 }
 );
 console.log(count);
