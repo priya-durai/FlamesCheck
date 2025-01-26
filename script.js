@@ -1,5 +1,5 @@
-var name1="Vidhya"
-var name2="Narayanan"
+var name1="Diya"
+var name2="Priya"
 var array1=Array.from(name1.replace(" ","").toLowerCase());
 var array2=Array.from(name2.replace(" ","").toLowerCase());
 var count=array1.length+array2.length;
